@@ -1,4 +1,7 @@
 Quentin MELTZHEIM LP DASI 2
+Quentin TRONCY LP DASI 2
 
 Question 1:
 Si le parametre contient un quelconque caractere autre qu'une lettre minuscule, le code ne fonctionnera pas. Exemple : "Z -> [" , "9 -> :"
+Question 2:
+26^n
