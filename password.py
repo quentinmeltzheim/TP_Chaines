@@ -44,18 +44,14 @@ def hasNoBadChar(password):
             return False
     return True
 
-def hasOtherThanZ(password):
-    for i in range(0,len(password)-1):
-        if password[i] != "z":
-            return True
-    return False
+
 # Grâce à ce fragment de code, si vous exécutez ce fichier, les tests doctests seront exécutés également. 
 # Si vous ne voulez plus que les tests s'exécutent, commentez les deux lignes ci-dessous. 
 # Si vous préférez lancer vos tests à la main, commentez également les lignes, et utilisez "python -m doctest pass.py" en console.
 
 if __name__ == "__main__":
     count_getNext = 0
-    passwd = "quentintroncy"
+    passwd = "quentin"
     while True:
         if hasNoBadChar(passwd) and hasSeries(passwd) and hasTwoPairs(passwd):
             print()
